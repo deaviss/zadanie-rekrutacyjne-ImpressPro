@@ -1,0 +1,234 @@
+* {
+	font-family: "Open Sans";
+	text-align: center;
+}
+
+.program {
+	text-align: center;
+	margin-top: 76px;
+	width: 97%;
+
+	.program-header{
+		color: #7d7d7d;
+		font-size: 36px;
+		font-weight: 300;
+	}
+
+	.program-desc {
+		color: #c3c3c3;
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+	.box {
+		
+		min-height: 406px;
+		max-width: 301px;
+		min-width: 301px;
+		margin: auto;
+		border-radius: 10px;
+		box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+		background-color: #ffffff;
+		transition: 0.3s;
+		svg {
+			margin: 20px auto;
+			display: block;
+		}
+		.box-title {
+			padding: 0px;
+			color: #ffffff;
+			font-size: 22px;
+			display: inline;
+			font-weight: 300;
+			background-color: #3c3c3c;
+			line-height: 27px;
+			max-width: 100%;
+		}
+		.box-desc{
+			margin-top: 20px;
+			color: #999999;
+			font-size: 12px;
+			font-weight: 300;
+		}
+	}
+	.box:hover {
+		box-shadow: 0 0 15px rgba(243, 146, 34, 0.58);
+	}
+
+	.dot {
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABE0lEQVQ4T7WU0VXCQBBF38u3pAUhFCAd2AJWoA2YQCWGUIBagbGT8K852ELyn+fZhOUEBDzCuJ+7M3dndt884siqsvFDAN2KmECYtGFEQaFoFORh8vF+KJX7m9VyPA2kJwHDY5d1bKwbch4+fub9uB1gvYhSEMkp0IGzdBCXc7+/BZ4J6zjCYpCUs03lgGuT0tsfK9sJF3nn2m8rrLJoTeD6EqB706u4HNH9JqHnS2A+11XJajl6oXhvA9Qr6ywqANxYAFud1lkkE9gG8i9Au5aBlf2nmMvGStgCvsK4HHaTYj16DmpqDl6HZ0F7TrN1m76wXfuQ0t/Mwr0ZyNlJg/0BRjOl6Ozfj+ZKVAEE+T7I534D/jF/yxciiisAAAAASUVORK5CYII=');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.przycisk {
+		border-radius: 10px;
+		color: #f39222;
+		border: 3px solid #f39222;
+		background-color: #ffffff;
+		text-decoration: none;
+		padding: 15px;
+		margin: 40px auto;
+		
+		display: inline-flex;
+		vertical-align: middle;
+
+		&:hover {
+			color: #ffffff;
+			background-color: #f39222;
+		}
+		.przycisk-title {
+			font-size: 16px;
+			font-weight: 400;
+			text-transform: uppercase;
+			
+			padding: 0px 8px;
+		}
+		.pdf{
+			border-left: 1px solid #e5e5e5;
+			padding: 0px 8px;
+		}
+	}
+}
+
+.faq{
+	background-image: url('../img/bg.png');
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	min-height: 700px;
+
+	.faq-header {
+		color: #7d7d7d;
+		font-size: 36px;
+		font-weight: 300;
+	}
+
+	.faq-content {
+		margin-top: 130px;
+		text-align: left;
+		margin-left: 20px;
+		width: 55%;
+		
+		transition: height 1s;
+		.rozwiniety {
+			height: 181px;
+			border-radius: 10px;
+			border: 1px solid #ffffff;
+		}
+		.nierozwiniety {
+			height: 44px;
+		}
+		.faq-box{
+			overflow:hidden;
+			margin-top: 10px;
+			margin-left: 10%;
+			transition: all 0.3s;
+			.faq-top{
+				cursor: pointer;
+				border-radius: 10px;
+				border: 1px solid #ffffff;
+				padding: 5px;
+				height: 44px;
+				background-color: #ffffff;
+			}
+			.faq-title{
+				color: #f39222;
+				font-size: 18px;
+				font-weight: 700;
+				float: left;
+				padding-left: 10px;
+			}
+			.faq-desc {
+				transition: 0.3s;
+				padding: 10px;
+				color: #ffffff;
+				font-size: 12px;
+				font-weight: 400;
+			}
+			.faq-button {
+				float: left;
+				width: 32px;
+				height: 32px;
+				border-radius: 16px;
+				background-color: #f39222;
+				color: #ffffff;
+				font-size: 22px;
+				font-weight: 700;
+				text-align: center;
+				line-height: 25px;
+			}
+		}
+	}
+
+	.faq-bg2{
+		background-image: url('../img/bg2.png');
+		height: 842px;
+		width: 600px;
+		background-repeat: no-repeat;
+	}
+	margin-bottom: -20px;
+}
+
+.obok {
+	display: flex;
+	justify-content: space-around;
+}
+
+.stopka {
+	width: 100%;
+	height: 50px;
+	background-color: #2a2a2a;
+}
+
+@media (max-width: 768px){
+	.faq{
+		height: 900px;
+		.faq-content{
+			margin: 0px;
+			margin-top: 100px;
+			min-width: 320px;
+			.rozwiniety {
+				height: 280px;
+				border-radius: 10px;
+				border: 1px solid #ffffff;
+			}
+			.faq-box{
+				width: 60%;
+				.faq-title{
+					font-size: 12px;
+					margin-top: 6px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1360px) {
+  .faq{
+		min-height: 800px;
+		.faq-content{
+			width: 80%;
+			.faq-box{
+				width: 100%;
+				margin: 10px auto;
+			}
+		}
+		.faq-bg2{
+			display: none;
+		}
+	}
+	.program{
+		.box{
+			margin-top: 20px;
+		}
+	}
+}
+
+@media (max-width: 1628px) {
+	.program{
+		.dot{
+			display: none;
+		}
+	}
+}

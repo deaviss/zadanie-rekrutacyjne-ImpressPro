@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ImpressPro - test</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class=" program">
+		<div class="row">
+			<div class="col">
+				<header class="program-header">Dlaczego warto wybrać Terminal od nas?</header>
+				<p class="program-desc">Program dla <span style="color: #f39222">nowych</span> klientów</p>
+			</div>
+		</div>
+
+
+		<div class="row justify-content-around" style="margin-top: 20px;">
+
+
+			<div class="col box">
+				<svg id="SVGDoc" width="64" height="128" viewBox="0 0 64 128">
+					<image
+						xlink:href="data:image/png;base64,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"
+						width="64" height="128" transform="matrix(1,0,0,1,0,0)"></image>
+				</svg>
+				<header class="box-title">
+					0 zł za urządzenie przez rok
+				</header>
+				<p class="box-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+			<div class="col-1 dot"></div>
+
+			<div class="col box">
+				<svg id="SVGDoc" width="147" height="128" viewBox="0 0 147 88">
+					<image
+						xlink:href="data:image/png;base64,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"
+						width="147" height="88" transform="matrix(1,0,0,1,0,0)"></image>
+				</svg>
+				<header class="box-title">
+					0 zł prowizji od transakcji
+				</header>
+				<p class="box-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+			<div class="col-1 dot"></div>
+
+			<div class="col box">
+				<svg id="SVGDoc" width="139" height="128" viewBox="0 0 139 78">
+					<image
+						xlink:href="data:image/png;base64,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"
+						width="139" height="78" transform="matrix(1,0,0,1,0,0)"></image>
+				</svg>
+				<header class="box-title">
+					Umowa na 12 miesięcy bez zobowiązań
+				</header>
+				<p class="box-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+
+			<div class="col-1 dot"></div>
+
+			<div class="col box">
+				<?xml version="1.0" encoding="UTF-8"?>
+				<svg id="SVGDoc" width="120" height="128" viewBox="0 0 120 98">
+					<image
+						xlink:href="data:image/png;base64,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"
+						width="120" height="98" transform="matrix(1,0,0,1,0,0)"></image>
+				</svg>
+				<header class="box-title">
+					Dodatkowa premia &nbsp; 100 zł
+				</header>
+				<p class="box-desc">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+					magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<a href="#" class="przycisk">
+				<span class="przycisk-title">Pobierz regulamin</span>
+				<i class="material-icons md-48 pdf">picture_as_pdf</i>
+			</a>
+
+		</div>
+
+	</div>
+
+	<div class="faq">
+		<header class="faq-header">
+			Najczęściej zadawane pytania
+		</header>
+
+		<!-- faq -->
+		<div class="obok">
+			<div class="faq-content">
+				<div class="row">
+					<div id="faq1" onclick="hide(this)" class="faq-box rozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">-</div>
+							<span class="faq-title">O co chodzi z Programem Polska Bezgotówkowa?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div id="faq2" onclick="hide(this)" class="faq-box nierozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">+</div>
+							<span class="faq-title">Kto może odebrać terminal za darmo?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="faq3" onclick="hide(this)" class="faq-box nierozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">+</div>
+							<span class="faq-title">Na ile zawierana jest umowa?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="faq4" onclick="hide(this)" class="faq-box nierozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">+</div>
+							<span class="faq-title">Ile terminali mogę odebrać w Programie?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div id="faq5" onclick="hide(this)" class="faq-box nierozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">+</div>
+							<span class="faq-title">Ile terminali mogę odebrać w Programie?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="faq6" onclick="hide(this)" class="faq-box nierozwiniety">
+						<div class="faq-top">
+							<div class="faq-button">+</div>
+							<span class="faq-title">A co, jeśli w mojej firmie był już terminal?</span>
+						</div>
+						<div class="faq-desc">
+							<span>Polska Bezgotówkowa to potoczna nazwa Programu Wsparcia Obrotu Bezgotówkowego Polska Bezgotówkowa.
+								Jest to wspólny
+								projekt sektora usług płatniczych – Związku Banków Polskich, Ministerstwa Przedsiębiorczości i
+								Technologii, agentów
+								rozliczeniowych oraz organizacji płatniczych Mastercard i Visa.
+								Ideą Programu jest umożliwienie każdemu przedsiębiorcy bezkoszowego i bezproblemowego wejścia na rynek
+								akceptacji
+								płatności bezgotówkowych.
+								Dzięki wsparciu gwarantowanemu przez Program Polska Bezgotówkowa, przedsiębiorca może odebrać do 3
+								terminali POS bez
+								abonamentu i prowizji, przez okres 12 miesięcy.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- tło -->
+			<div class="faq-bg2">
+				&nbsp;
+			</div>
+		</div>
+	</div>
+
+	<div class="stopka" style="clear: both">
+		&nbsp;
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
